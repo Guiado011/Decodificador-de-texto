@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main class="container">
+    <section class="box-one">
+      <header>
+        <img class="title" src="images/titulo.png" />
+      </header>
+      <textarea class="text" placeholder="Digite seu texto"></textarea>
+      <div class="alert">
+        <img class="alert-img" src="images/utilizando.png" />
+        <p>Apenas letras minúsculas e sem acento.</p>
+      </div>
+      <div class="btns">
+        <button onclick="criptografar()" class="btn" id="criptografar">Criptografar</button>
+        <button onclick="descriptografar()" class="btn" id="descriptografar">Descriptografar</button>
+      </div>
+    </section>
+
+    <section class="box-two">
+      <img src="images/procurando.svg" />
+      <h2 class="textoCriptografado">Nenhuma mensagem encontrada</h2>
+      <p class="msg">Digite um texto que você deseja criptografar ou descriptografar.</p>
+    </section>
+  </main>
+  <footer>
+    <p>Desenvolvido por <a href="https://github.com/Guiado011" target="_blank">João Lucas</a> 2024</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #F3F5FC;
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-one {
+  position: relative;
+  width: 78%;
+  height: 90vh;
+}
+
+.box-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-one header {
+  position: relative;
+  width: 100%;
+}
+
+.box-one header .title {
+  position: relative;
+  width: 120px;
+  height: 48px;
+}
+
+.box-one .text {
+  position: relative;
+  width: 60%;
+  height: 60vh;
+  background-color: #F3F5FC;
+  border: none;
+  margin: 5% 0%;
+  font-size: 32px;
+  color: #0A3871;
+  outline: none;
+}
+
+.box-one .text::placeholder {
+  color: #0A3871;
+}
+
+.box-one .alert {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  width: 60%;
+}
+
+.box-one .alert-img {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.box-one .alert p {
+  font-size: 12px;
+  color: #495057;
+}
+
+.box-one .btns {
+  position: relative;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0%;
+}
+
+.box-one .btn {
+  position: relative;
+  width: 320px;
+  height: 65px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  font-size: 16px;
+  border: none;
+}
+
+#criptografar {
+  background-color: #0A3871;
+  color: #FFFFFF;
+}
+
+#descriptografar {
+  border: 1px solid #0A3871;
+  color: #0A3871;
+}
+
+.box-two {
+  position: relative;
+  width: 22%;
+  height: 89vh;
+  background-color: #FFFFFF;
+  box-shadow: 0px 24px 32px -8px #00000014;
+  border-radius: 32px;
+  padding: 32px;
+}
+
+.box-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.box-two img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.box-two h2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #343A40;
+  text-align: center;
+}
+
+.box-two p {
+  font-size: 16px;
+  color: #495057;
+  text-align: center;
+}
+
+.new-btn {
+  position: relative;
+  width: 300px;
+  height: 65px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  font-size: 16px;
+  border: 1px solid #0A3871;
+  color: #0A3871;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 10vh;
+  background-color: #0A3871;
+  color: #ffffff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .box-one {
+    width: 100%;
+    height: auto;
+    align-items: start;
+  }
+
+  .box-one .text {
+    width: 100%;
+    margin: 10% auto;
+  }
+
+  .box-one .title {
+    width: 100%;
+    margin-left: -40px;
+  }
+
+  .box-one .btns {
+    width: 100%;
+    margin: 5% auto;
+  }
+
+  .box-two {
+    width: 100%;
+    height: auto;
+  }
+
+  .box-two img {
+    display: none;
+  }
+
+  .new-btn {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 425px) {
+  .box-one .text {
+    width: 100%;
+    margin: 10% auto;
+  }
+
+  .box-one .title {
+    width: 100%;
+    margin-left: -40px;
+  }
+
+  .box-one .btns {
+    width: 100%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-one .btn {
+    width: 100%;
+    margin: 5% auto;
+  }
+}
